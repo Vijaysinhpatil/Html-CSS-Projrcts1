@@ -1,0 +1,80 @@
+html , body 
+{
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-family: "lato",sans-serif;
+    font-weight: 400;
+    line-height: 1.8em;
+    color: white;
+}
+.pimg1
+{
+    background-image: url(./nature.jpg);
+    min-height: 100%;
+    /*min-width: 100%;*/
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.pimg2
+{
+    background-image: url(./img2.jpg);
+    min-height: 100%;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+.pimg3
+{
+    background-image: url(./img3.jpg);
+    min-height: 100%;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+.ptext,.ptext2,.ptext3
+{   
+
+    position: absolute;
+     top: 300px ;
+    left: 350px;
+    text-align: center;
+  
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    
+}
+.textbg,.textbg2,.textbg3
+{   
+    padding: 5px;
+    text-align: center; 
+    font-size: 27px;
+    background-color:black ;
+}
+ h2{
+    color: black;
+    position: relative;
+    left: 300px;
+}
+p
+{
+    color: black;
+   
+} 
+
+.Heading1 , .Heading2 , .Heading3
+{ 
+
+  padding: 50px 80px;
+  background-color: #282e34;
+
+}
